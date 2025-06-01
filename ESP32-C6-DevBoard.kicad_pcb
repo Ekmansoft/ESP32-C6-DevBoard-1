@@ -1740,7 +1740,7 @@
 		(property "Reference" "J5"
 			(at 0 -2.33 90)
 			(layer "F.SilkS")
-			(uuid "afd36038-2b45-4b04-9bf1-ec195ace878a")
+			(uuid "d182e42d-5c21-4dee-b91c-10012fff8492")
 			(effects
 				(font
 					(size 1 1)
@@ -1752,7 +1752,7 @@
 			(at 0 40.43 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30bfdac6-04cb-46a9-9264-1ed08bf6e42e")
+			(uuid "17af2f0f-4435-46e5-b6e1-9e7bc324286c")
 			(effects
 				(font
 					(size 1 1)
@@ -1765,7 +1765,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d40c0182-acfc-47de-9290-9322405e8ce8")
+			(uuid "b275da3b-350f-49e3-b93d-f73eb9407765")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +1778,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e79f29c6-74a7-42bd-b670-934cb219e8e0")
+			(uuid "21b4cbd6-aab4-453c-b799-1cbab8e712d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,9 +4331,8 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.43 0)
+			(at 0 -1.27 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "167c2445-32d4-4673-8da9-f7ae45829054")
 			(effects
 				(font
@@ -4547,14 +4546,14 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D11"
-			(at -2.2352 -0.2794 0)
+			(at 0 1.524 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "5cb2a6b4-3806-4d7b-809b-b289f333c1d6")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 0.8 0.8)
+					(thickness 0.08)
+					(bold yes)
 				)
 			)
 		)
@@ -5243,9 +5242,8 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.43 0)
+			(at 2.54 -0.762 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "485a8fdc-ddd9-4a7f-8e18-2c491d1862e9")
 			(effects
 				(font
@@ -5459,9 +5457,8 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3"
-			(at 2.54 0.85 0)
+			(at -2.54 1.27 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "55e6047b-9643-449f-bfba-f75a8087df85")
 			(effects
 				(font
@@ -6010,7 +6007,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D12"
-			(at 0 -1.85 0)
+			(at 0.254 -1.778 0)
 			(layer "F.SilkS")
 			(uuid "03be6b7c-1d42-4d5d-ad15-6761073e1989")
 			(effects
@@ -6234,13 +6231,13 @@
 			(uuid "9671935f-c689-4ead-903a-f63a168027cc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e7a44c6d-6632-4997-9acb-75b4a0b7fb3d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.4 0.4)
+					(thickness 0.06)
 				)
 			)
 		)
@@ -6284,9 +6281,8 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D5"
-			(at 0 -1.43 0)
+			(at 0 1.524 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "3e8d209d-ba6e-4867-ad6c-602380c5af34")
 			(effects
 				(font
@@ -7246,7 +7242,6 @@
 		(property "Reference" "R13"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "90261b21-a5f0-4238-8a7f-afea970fa868")
 			(effects
 				(font
@@ -11522,9 +11517,8 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R17"
-			(at 0 -1.43 0)
+			(at 0 1.524 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "f8adaabd-a1a7-40f7-983b-f32607133215")
 			(effects
 				(font
@@ -12438,9 +12432,8 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D7"
-			(at 0 -1.43 0)
+			(at 0 1.524 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "cf4bb103-030d-4286-a118-619eb577d8af")
 			(effects
 				(font
@@ -13825,6 +13818,222 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "0d99396c-a488-4542-87be-039967e02fdf")
+	)
+	(gr_text "04"
+		(at 118.618 53.086 0)
+		(layer "F.SilkS")
+		(uuid "108a02b1-c297-42ff-8dba-d15df428f92c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "03"
+		(at 121.158 53.086 0)
+		(layer "F.SilkS")
+		(uuid "187315fa-421e-4a3b-ad0d-a801504d1735")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "07"
+		(at 123.698 73.406 0)
+		(layer "F.SilkS")
+		(uuid "31b77213-4b49-4682-bae1-b272f7964e80")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "15"
+		(at 128.778 73.406 0)
+		(layer "F.SilkS")
+		(uuid "41dcb3ba-3b1e-4f69-af1d-041795ac2611")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "02"
+		(at 138.684 53.086 0)
+		(layer "F.SilkS")
+		(uuid "44aba118-215d-4da4-9bfa-74d18cd18d03")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "14"
+		(at 126.238 73.406 0)
+		(layer "F.SilkS")
+		(uuid "51d2dbfe-01de-40c3-8af2-0ad2a1179268")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "22"
+		(at 141.224 73.406 0)
+		(layer "F.SilkS")
+		(uuid "53710bba-6ef9-4173-b27c-902f696941bf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3V3"
+		(at 110.998 53.086 0)
+		(layer "F.SilkS")
+		(uuid "811c6cc2-5eac-4d30-b3f6-d131fd0e5c8f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "01"
+		(at 113.538 53.086 0)
+		(layer "F.SilkS")
+		(uuid "91757f9e-57d1-41cb-b6ab-dca29ae5326d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 108.204 53.086 0)
+		(layer "F.SilkS")
+		(uuid "a38d4ffe-f155-4485-a541-045a0038ee13")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "21"
+		(at 138.938 73.406 0)
+		(layer "F.SilkS")
+		(uuid "ac7b03d2-cfb7-49e3-aeea-412816bceff5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "19"
+		(at 133.858 73.406 0)
+		(layer "F.SilkS")
+		(uuid "b3a97863-4b64-4055-9487-d5fb68b647f7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "23"
+		(at 143.51 73.406 0)
+		(layer "F.SilkS")
+		(uuid "bd154566-a693-42b3-b88c-4df4c358950c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "20"
+		(at 136.398 73.406 0)
+		(layer "F.SilkS")
+		(uuid "c60f0bd8-e513-4079-b7ed-7a90dee0ff57")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 105.41 53.086 0)
+		(layer "F.SilkS")
+		(uuid "dde508d0-1958-42f9-b033-a0d7a48a47cf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "06"
+		(at 121.158 73.406 0)
+		(layer "F.SilkS")
+		(uuid "f1706f71-dab9-4068-9346-3abc69746054")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "18"
+		(at 131.318 73.406 0)
+		(layer "F.SilkS")
+		(uuid "f4ed4803-6d76-4de3-92fa-822fb5897756")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "05"
+		(at 115.824 53.086 0)
+		(layer "F.SilkS")
+		(uuid "fdc02692-4ccc-47e1-be10-80fcc9866754")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 135.445 57.15)
