@@ -7518,7 +7518,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C125103"
 			(at 66.04 36.83 0)
 			(effects
 				(font
@@ -7646,7 +7646,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C12065"
 			(at 38.1 168.91 0)
 			(effects
 				(font
@@ -7878,7 +7878,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C720477"
 			(at 295.91 64.77 0)
 			(effects
 				(font
@@ -8003,7 +8003,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C25804"
 			(at 227.33 48.26 0)
 			(effects
 				(font
@@ -8113,7 +8113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part_No" "0603B104K500NT"
+		(property "Part_No" "FH (Guangdong Fenghua Advanced Tech) 0603B104K500NT"
 			(at 368.3 26.67 0)
 			(effects
 				(font
@@ -8122,7 +8122,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C30926"
 			(at 368.3 26.67 0)
 			(effects
 				(font
@@ -8233,7 +8233,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C502527"
 			(at 63.5 54.61 0)
 			(effects
 				(font
@@ -8501,7 +8501,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C125123"
 			(at 91.44 168.91 0)
 			(effects
 				(font
@@ -8617,7 +8617,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C23197"
 			(at 195.58 38.1 0)
 			(effects
 				(font
@@ -8849,7 +8849,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C720477"
 			(at 295.91 43.18 0)
 			(effects
 				(font
@@ -8977,7 +8977,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C15849"
 			(at 303.53 46.99 0)
 			(effects
 				(font
@@ -9086,7 +9086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part_No" "0603B104K500NT"
+		(property "Part_No" "FH (Guangdong Fenghua Advanced Tech) 0603B104K500NT"
 			(at 316.23 69.85 0)
 			(effects
 				(font
@@ -9095,7 +9095,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C30926"
 			(at 316.23 69.85 0)
 			(effects
 				(font
@@ -9214,7 +9214,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C25804"
 			(at 303.53 26.67 0)
 			(effects
 				(font
@@ -9333,7 +9333,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C96446"
 			(at 78.74 163.83 0)
 			(effects
 				(font
@@ -9455,7 +9455,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C57668"
 			(at 234.95 72.39 0)
 			(effects
 				(font
@@ -9577,7 +9577,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C22935"
 			(at 66.04 161.29 0)
 			(effects
 				(font
@@ -9695,7 +9695,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C23197"
 			(at 66.04 29.21 0)
 			(effects
 				(font
@@ -9814,7 +9814,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C5736265"
 			(at 350.52 63.5 0)
 			(effects
 				(font
@@ -10078,7 +10078,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C502527"
 			(at 74.93 38.1 0)
 			(effects
 				(font
@@ -10203,7 +10203,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C23186"
 			(at 58.42 36.83 0)
 			(effects
 				(font
@@ -10321,7 +10321,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C23197"
 			(at 38.1 161.29 0)
 			(effects
 				(font
@@ -10443,7 +10443,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C57668"
 			(at 237.49 48.26 0)
 			(effects
 				(font
@@ -10630,7 +10630,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C2876308"
 			(at 48.26 160.02 0)
 			(effects
 				(font
@@ -10755,7 +10755,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C124375"
 			(at 97.79 152.4 0)
 			(effects
 				(font
@@ -11012,7 +11012,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C23197"
 			(at 195.58 35.56 0)
 			(effects
 				(font
@@ -11206,7 +11206,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C12065"
 			(at 63.5 100.33 0)
 			(effects
 				(font
@@ -11454,7 +11454,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C191023"
 			(at 78.74 88.9 0)
 			(effects
 				(font
@@ -11565,7 +11565,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C502527"
 			(at 74.93 102.87 0)
 			(effects
 				(font
@@ -11749,7 +11749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part_No" "0603B104K500NT"
+		(property "Part_No" "FH (Guangdong Fenghua Advanced Tech) 0603B104K500NT"
 			(at 144.78 30.48 0)
 			(effects
 				(font
@@ -11758,7 +11758,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C30926"
 			(at 144.78 30.48 0)
 			(effects
 				(font
@@ -11941,7 +11941,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C2765186"
 			(at 39.37 46.99 0)
 			(effects
 				(font
@@ -12097,7 +12097,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C502527"
 			(at 68.58 120.65 0)
 			(effects
 				(font
@@ -12290,7 +12290,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C23197"
 			(at 91.44 162.56 0)
 			(effects
 				(font
@@ -12409,7 +12409,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C25811"
 			(at 66.04 168.91 0)
 			(effects
 				(font
@@ -12725,7 +12725,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C23197"
 			(at 63.5 92.71 0)
 			(effects
 				(font
@@ -12907,7 +12907,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C23186"
 			(at 58.42 40.64 0)
 			(effects
 				(font
@@ -13025,7 +13025,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C96446"
 			(at 356.87 26.67 0)
 			(effects
 				(font
@@ -13208,7 +13208,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C2765186"
 			(at 33.02 113.03 0)
 			(effects
 				(font
@@ -13364,7 +13364,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C502527"
 			(at 59.69 120.65 0)
 			(effects
 				(font
@@ -13555,7 +13555,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C23186"
 			(at 57.15 105.41 0)
 			(effects
 				(font
@@ -13674,7 +13674,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C23179"
 			(at 160.02 31.75 0)
 			(effects
 				(font
@@ -13791,7 +13791,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C191023"
 			(at 80.01 31.75 0)
 			(effects
 				(font
@@ -13909,7 +13909,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C19666"
 			(at 157.48 82.55 0)
 			(effects
 				(font
@@ -14028,7 +14028,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C47742"
 			(at 176.53 58.42 0)
 			(effects
 				(font
@@ -14215,7 +14215,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C96446"
 			(at 152.4 30.48 0)
 			(effects
 				(font
@@ -14333,7 +14333,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C96446"
 			(at 33.02 163.83 0)
 			(effects
 				(font
@@ -14449,7 +14449,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C25804"
 			(at 226.06 72.39 0)
 			(effects
 				(font
@@ -14557,7 +14557,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C25503134"
 			(at 203.2 144.78 0)
 			(effects
 				(font
@@ -14716,7 +14716,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C25503134"
 			(at 228.6 144.78 0)
 			(effects
 				(font
@@ -14949,7 +14949,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C23186"
 			(at 57.15 100.33 0)
 			(effects
 				(font
@@ -15192,7 +15192,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "C502527"
 			(at 73.66 54.61 0)
 			(effects
 				(font
