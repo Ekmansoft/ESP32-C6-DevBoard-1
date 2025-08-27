@@ -2048,12 +2048,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SD05_SOD323"
+		(symbol "Diode:PESD5V0S1UL"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2067,7 +2066,7 @@
 					)
 				)
 			)
-			(property "Value" "SD05_SOD323"
+			(property "Value" "PESD5V0S1UL"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2075,7 +2074,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
+			(property "Footprint" "Diode_SMD:D_SOD-882"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -2084,7 +2083,25 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unidirectional ESD protection diode, 5V, SOD-882"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2093,7 +2110,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(property "ki_fp_filters" "D*SOD?882"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2102,43 +2119,13 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transient voltage suppressor thyrector transil"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D?SOD?323*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SD05_SOD323_0_1"
+			(symbol "PESD5V0S1UL_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2159,10 +2146,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2170,11 +2157,11 @@
 					)
 				)
 			)
-			(symbol "SD05_SOD323_1_1"
+			(symbol "PESD5V0S1UL_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "A1"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2192,7 +2179,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A2"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4616,8 +4603,8 @@
 		)
 	)
 	(rectangle
-		(start 235.585 128.905)
-		(end 235.585 128.905)
+		(start 349.885 118.745)
+		(end 349.885 118.745)
 		(stroke
 			(width 0)
 			(type default)
@@ -4680,8 +4667,8 @@
 		(uuid 9e9dc5fe-6420-4f4c-8342-2a56f1ea75f8)
 	)
 	(rectangle
-		(start 189.865 117.475)
-		(end 253.365 172.085)
+		(start 304.165 107.315)
+		(end 367.665 161.925)
 		(stroke
 			(width 0)
 			(type default)
@@ -4990,7 +4977,7 @@
 		(uuid "f37c5764-7fb0-4251-b44e-cf34284d3cb6")
 	)
 	(no_connect
-		(at 208.28 165.1)
+		(at 322.58 154.94)
 		(uuid "0a75a483-8230-4181-a54c-0cc2ddf89b4f")
 	)
 	(no_connect
@@ -5002,15 +4989,15 @@
 		(uuid "22c07ed8-5e9d-4e70-b785-510eb9411ba1")
 	)
 	(no_connect
-		(at 208.28 129.54)
+		(at 322.58 119.38)
 		(uuid "26565d27-268c-42b6-bcac-c41b4e96db56")
 	)
 	(no_connect
-		(at 233.68 129.54)
+		(at 347.98 119.38)
 		(uuid "2c7b7f52-2e3c-4c82-934f-454cf02cd851")
 	)
 	(no_connect
-		(at 208.28 144.78)
+		(at 322.58 134.62)
 		(uuid "3138cfae-9bbb-4735-84f6-cf56bc5aaa76")
 	)
 	(no_connect
@@ -5018,15 +5005,15 @@
 		(uuid "33745412-da65-41b7-aaf2-fb781a1e14e4")
 	)
 	(no_connect
-		(at 208.28 149.86)
+		(at 322.58 139.7)
 		(uuid "33ec13fb-a0dd-4272-af8f-774c5bd487b7")
 	)
 	(no_connect
-		(at 208.28 154.94)
+		(at 322.58 144.78)
 		(uuid "3658ab56-1321-4e5e-8b96-171e95fe64f8")
 	)
 	(no_connect
-		(at 208.28 157.48)
+		(at 322.58 147.32)
 		(uuid "3759f20f-6123-4ea1-b9a7-e6046f30b9a2")
 	)
 	(no_connect
@@ -5050,23 +5037,23 @@
 		(uuid "70afccba-24ba-45b3-b9a9-d90990aad41a")
 	)
 	(no_connect
-		(at 208.28 152.4)
+		(at 322.58 142.24)
 		(uuid "74f02824-78c3-4d1c-b0ee-d4b29a195471")
 	)
 	(no_connect
-		(at 233.68 137.16)
+		(at 347.98 127)
 		(uuid "812114bf-5305-49fa-a508-d76a15a55d2d")
 	)
 	(no_connect
-		(at 233.68 132.08)
+		(at 347.98 121.92)
 		(uuid "88467e9e-a888-4520-bffb-89c08b2d4bfd")
 	)
 	(no_connect
-		(at 208.28 162.56)
+		(at 322.58 152.4)
 		(uuid "95cf9567-68c7-43b8-b0f4-d1d660482fec")
 	)
 	(no_connect
-		(at 208.28 147.32)
+		(at 322.58 137.16)
 		(uuid "969a24f2-c448-4da2-8e0d-aef77d4f73a6")
 	)
 	(no_connect
@@ -5086,7 +5073,7 @@
 		(uuid "bee16409-542d-4d19-a1ee-3065b50cb40a")
 	)
 	(no_connect
-		(at 233.68 139.7)
+		(at 347.98 129.54)
 		(uuid "c05318be-acde-46b3-ad6a-028c15e14ae1")
 	)
 	(no_connect
@@ -5098,7 +5085,7 @@
 		(uuid "e4d2861c-4061-4056-a68e-1957caee2734")
 	)
 	(no_connect
-		(at 233.68 134.62)
+		(at 347.98 124.46)
 		(uuid "e6561a2e-79ff-48cf-89fd-97c3efb99d09")
 	)
 	(no_connect
@@ -6516,7 +6503,7 @@
 		(uuid "1a67a899-30ba-4032-bf5f-c3ad9445c528")
 	)
 	(label "EIO23"
-		(at 233.68 165.1 0)
+		(at 347.98 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6536,7 +6523,7 @@
 		(uuid "2574e099-2759-4ffa-9265-de422fc58e9c")
 	)
 	(label "EIO2"
-		(at 208.28 160.02 0)
+		(at 322.58 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6546,7 +6533,7 @@
 		(uuid "2a6f1b02-1733-46fb-aff7-e88c3dcff5a0")
 	)
 	(label "EIO18"
-		(at 233.68 152.4 0)
+		(at 347.98 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6576,7 +6563,7 @@
 		(uuid "43f34e4e-a7a7-40cb-a76a-2645c9ca7f9f")
 	)
 	(label "EIO1"
-		(at 208.28 134.62 0)
+		(at 322.58 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6596,7 +6583,7 @@
 		(uuid "559ffa14-0d62-444b-9ec5-99d46572baf0")
 	)
 	(label "EIO14"
-		(at 233.68 147.32 0)
+		(at 347.98 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6616,7 +6603,7 @@
 		(uuid "5acf997c-bc29-4c8e-9624-c6c18f2216e1")
 	)
 	(label "EIO6"
-		(at 233.68 142.24 0)
+		(at 347.98 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6656,7 +6643,7 @@
 		(uuid "647cf49d-df44-465d-a1ad-bf240ff90c1e")
 	)
 	(label "EIO4"
-		(at 208.28 139.7 0)
+		(at 322.58 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6666,7 +6653,7 @@
 		(uuid "6521e839-4d83-4597-af79-a07829489bad")
 	)
 	(label "PWR_3V3_PRE"
-		(at 233.68 127 0)
+		(at 347.98 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6736,7 +6723,7 @@
 		(uuid "70d8f54d-8f9c-44d2-b003-efff81f4cc73")
 	)
 	(label "EIO21"
-		(at 233.68 160.02 0)
+		(at 347.98 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6806,7 +6793,7 @@
 		(uuid "9ac32b26-d210-4bf5-a15c-9938f69bf1e7")
 	)
 	(label "EIO5"
-		(at 208.28 137.16 0)
+		(at 322.58 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6816,7 +6803,7 @@
 		(uuid "9aeab8cd-af37-4f95-a8f1-af078072900b")
 	)
 	(label "EIO7"
-		(at 233.68 144.78 0)
+		(at 347.98 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6846,7 +6833,7 @@
 		(uuid "a35a2d4b-7be5-48e7-a823-0a242fa557d3")
 	)
 	(label "EIO20"
-		(at 233.68 157.48 0)
+		(at 347.98 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6866,7 +6853,7 @@
 		(uuid "a9f3696e-3229-4da3-98b2-45d3541acc00")
 	)
 	(label "EIO3"
-		(at 208.28 142.24 0)
+		(at 322.58 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6956,7 +6943,7 @@
 		(uuid "c3eafb5a-2607-4555-95b0-c6cfae27e833")
 	)
 	(label "EIO22"
-		(at 233.68 162.56 0)
+		(at 347.98 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7006,7 +6993,7 @@
 		(uuid "e2319045-46c4-493b-a6e3-090386c58b6a")
 	)
 	(label "EIO15"
-		(at 233.68 149.86 0)
+		(at 347.98 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7016,7 +7003,7 @@
 		(uuid "e8ca9ac3-20a0-46c7-b7ae-88a7ac97ddd6")
 	)
 	(label "GND"
-		(at 208.28 127 0)
+		(at 322.58 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7056,7 +7043,7 @@
 		(uuid "f842670c-8d5b-4e00-aa2d-7b4c6737301a")
 	)
 	(label "PWR_3V3"
-		(at 208.28 132.08 0)
+		(at 322.58 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7076,7 +7063,7 @@
 		(uuid "ffc7ad61-0fe7-4184-af6b-d65ed7d207d5")
 	)
 	(label "EIO19"
-		(at 233.68 154.94 0)
+		(at 347.98 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7693,8 +7680,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SD05_SOD323")
-		(at 63.5 54.61 90)
+		(lib_id "Diode:PESD5V0S1UL")
+		(at 63.5 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7703,16 +7690,16 @@
 		(fields_autoplaced yes)
 		(uuid "08c89bfc-5f20-409a-9a97-d89486d07fd3")
 		(property "Reference" "D8"
-			(at 66.04 53.3399 90)
+			(at 66.04 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SD05_SOD323"
-			(at 66.04 55.8799 90)
+			(at 60.96 53.3401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7721,7 +7708,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 58.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
 			(at 68.58 54.61 0)
 			(effects
 				(font
@@ -7730,17 +7726,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 63.5 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 63.5 54.61 0)
+		(property "Description" "Unidirectional ESD protection diode, 5V, SOD-882"
+			(at 71.12 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,7 +7777,7 @@
 			)
 		)
 		(property "LCSC" "C502527"
-			(at 66.04 53.3399 0)
+			(at 60.96 55.8801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,8 +9483,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SD05_SOD323")
-		(at 74.93 38.1 90)
+		(lib_id "Diode:PESD5V0S1UL")
+		(at 74.93 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9506,16 +9493,16 @@
 		(fields_autoplaced yes)
 		(uuid "377cfbbf-667b-465b-b229-43f8141f65b5")
 		(property "Reference" "D6"
-			(at 77.47 36.8299 90)
+			(at 77.47 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SD05_SOD323"
-			(at 77.47 39.3699 90)
+			(at 72.39 36.8301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9524,7 +9511,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 69.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
 			(at 80.01 38.1 0)
 			(effects
 				(font
@@ -9533,17 +9529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 74.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 74.93 38.1 0)
+		(property "Description" "Unidirectional ESD protection diode, 5V, SOD-882"
+			(at 82.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9593,7 +9580,7 @@
 			)
 		)
 		(property "LCSC" "C502527"
-			(at 77.47 36.8299 0)
+			(at 72.39 39.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10622,8 +10609,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SD05_SOD323")
-		(at 74.93 102.87 90)
+		(lib_id "Diode:PESD5V0S1UL")
+		(at 74.93 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10632,16 +10619,16 @@
 		(fields_autoplaced yes)
 		(uuid "7b2061a6-2e7b-44ea-aca0-2c7eea1042af")
 		(property "Reference" "D10"
-			(at 77.47 101.5999 90)
+			(at 77.47 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SD05_SOD323"
-			(at 77.47 104.1399 90)
+			(at 72.39 101.6001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10650,7 +10637,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 69.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
 			(at 80.01 102.87 0)
 			(effects
 				(font
@@ -10659,17 +10655,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 74.93 102.87 0)
+		(property "Description" "Unidirectional ESD protection diode, 5V, SOD-882"
+			(at 82.55 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10719,7 +10706,7 @@
 			)
 		)
 		(property "LCSC" "C502527"
-			(at 77.47 101.5999 0)
+			(at 72.39 104.1401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11157,8 +11144,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SD05_SOD323")
-		(at 68.58 120.65 90)
+		(lib_id "Diode:PESD5V0S1UL")
+		(at 68.58 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11167,16 +11154,16 @@
 		(fields_autoplaced yes)
 		(uuid "87a0f575-2d85-4d26-a004-cff8f7ccc533")
 		(property "Reference" "D11"
-			(at 71.12 119.3799 90)
+			(at 71.12 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SD05_SOD323"
-			(at 71.12 121.9199 90)
+			(at 66.04 119.3801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11185,7 +11172,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
 			(at 73.66 120.65 0)
 			(effects
 				(font
@@ -11194,17 +11190,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 68.58 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 68.58 120.65 0)
+		(property "Description" "Unidirectional ESD protection diode, 5V, SOD-882"
+			(at 76.2 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11254,7 +11241,7 @@
 			)
 		)
 		(property "LCSC" "C502527"
-			(at 71.12 119.3799 0)
+			(at 66.04 121.9201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12311,8 +12298,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SD05_SOD323")
-		(at 59.69 120.65 90)
+		(lib_id "Diode:PESD5V0S1UL")
+		(at 59.69 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12321,16 +12308,16 @@
 		(fields_autoplaced yes)
 		(uuid "ab3e519e-23f2-4b4a-bc1f-503455a3eab9")
 		(property "Reference" "D12"
-			(at 62.23 119.3799 90)
+			(at 62.23 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SD05_SOD323"
-			(at 62.23 121.9199 90)
+			(at 57.15 119.3801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12339,7 +12326,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 54.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
 			(at 64.77 120.65 0)
 			(effects
 				(font
@@ -12348,17 +12344,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 59.69 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 59.69 120.65 0)
+		(property "Description" "Unidirectional ESD protection diode, 5V, SOD-882"
+			(at 67.31 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12408,7 +12395,7 @@
 			)
 		)
 		(property "LCSC" "C502527"
-			(at 62.23 119.3799 0)
+			(at 57.15 121.9201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13479,7 +13466,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x16_Pin")
-		(at 203.2 144.78 0)
+		(at 317.5 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13488,7 +13475,7 @@
 		(fields_autoplaced yes)
 		(uuid "db9b5112-2d84-4172-84a2-b05ef89c5202")
 		(property "Reference" "J6"
-			(at 203.835 121.92 0)
+			(at 318.135 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13496,7 +13483,7 @@
 			)
 		)
 		(property "Value" "Conn_01x16_Pin"
-			(at 203.835 124.46 0)
+			(at 318.135 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13504,7 +13491,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
-			(at 203.2 144.78 0)
+			(at 317.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13513,7 +13500,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 144.78 0)
+			(at 317.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13522,7 +13509,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x16, script generated"
-			(at 203.2 144.78 0)
+			(at 317.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13531,7 +13518,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 203.2 144.78 0)
+			(at 317.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13539,7 +13526,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 203.2 144.78 0)
+			(at 317.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13547,7 +13534,7 @@
 			)
 		)
 		(property "Part_No" "HanElectricity 2541WV-16P"
-			(at 203.2 144.78 0)
+			(at 317.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13556,7 +13543,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 203.2 144.78 0)
+			(at 317.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13564,7 +13551,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 203.2 144.78 0)
+			(at 317.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13572,7 +13559,7 @@
 			)
 		)
 		(property "LCSC" "C725948"
-			(at 203.835 121.92 0)
+			(at 318.135 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13639,7 +13626,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x16_Pin")
-		(at 228.6 144.78 0)
+		(at 342.9 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13648,7 +13635,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcbd3c3c-2264-4de0-a484-5e1f2a82aebc")
 		(property "Reference" "J5"
-			(at 229.235 121.92 0)
+			(at 343.535 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13656,7 +13643,7 @@
 			)
 		)
 		(property "Value" "Conn_01x16_Pin"
-			(at 229.235 124.46 0)
+			(at 343.535 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13664,7 +13651,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
-			(at 228.6 144.78 0)
+			(at 342.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13673,7 +13660,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 144.78 0)
+			(at 342.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13682,7 +13669,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x16, script generated"
-			(at 228.6 144.78 0)
+			(at 342.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13691,7 +13678,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 228.6 144.78 0)
+			(at 342.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13699,7 +13686,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 228.6 144.78 0)
+			(at 342.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13707,7 +13694,7 @@
 			)
 		)
 		(property "Part_No" "HanElectricity 2541WV-16P"
-			(at 228.6 144.78 0)
+			(at 342.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13716,7 +13703,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 228.6 144.78 0)
+			(at 342.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,7 +13711,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 228.6 144.78 0)
+			(at 342.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13732,7 +13719,7 @@
 			)
 		)
 		(property "LCSC" "C725948"
-			(at 229.235 121.92 0)
+			(at 343.535 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14113,8 +14100,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SD05_SOD323")
-		(at 73.66 54.61 90)
+		(lib_id "Diode:PESD5V0S1UL")
+		(at 73.66 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14123,16 +14110,16 @@
 		(fields_autoplaced yes)
 		(uuid "eb722d96-83e2-4ab5-8c61-bdddea552acc")
 		(property "Reference" "D9"
-			(at 76.2 53.3399 90)
+			(at 76.2 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SD05_SOD323"
-			(at 76.2 55.8799 90)
+			(at 71.12 53.3401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14141,7 +14128,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
 			(at 78.74 54.61 0)
 			(effects
 				(font
@@ -14150,17 +14146,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 73.66 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 73.66 54.61 0)
+		(property "Description" "Unidirectional ESD protection diode, 5V, SOD-882"
+			(at 81.28 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14210,7 +14197,7 @@
 			)
 		)
 		(property "LCSC" "C502527"
-			(at 76.2 53.3399 0)
+			(at 71.12 55.8801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
